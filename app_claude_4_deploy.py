@@ -339,8 +339,8 @@ with col1:
                 st.session_state.suggested_question = "Qual horário de treino do PingPoli?"
         
         with suggestions_col2:
-            if st.button("Pergunte sobre o Shigueru, você não vai se arrepender", key="sug2"):
-                st.session_state.suggested_question = "Quem é o Shigueru? Quero ter a honra de conhecê-lo."
+            if st.button("Membros da equipe", key="sug2"):
+                st.session_state.suggested_question = "Quem são os membros da equipe?"
         
         with suggestions_col3:
             if st.button("Quer saber sobre o Grandioso Shigueru?", key="sug3"):
