@@ -1,0 +1,8 @@
+# Core do App e Web Frameworks
+streamlit
+groq
+PyYAML
+sentence-transformers
+numpy
+scipy
+pymongo
