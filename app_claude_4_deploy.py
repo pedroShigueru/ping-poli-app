@@ -153,6 +153,26 @@ st.markdown("""
         border-top: 1px solid #eee;
         margin-top: 3rem;
     }
+
+    .commitment-card {
+        background: #eef1f5;
+        padding: 1.25rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        text-align: left;
+        margin-top: 2rem; /* Adiciona um espaço acima */
+        margin-bottom: 1rem;
+        border-left: 4px solid #1976D2; /* Um azul confiável */
+        color: #333;
+    }
+    .commitment-card strong {
+        color: #1976D2;
+        display: flex;
+        align-items: center;
+        gap: 8px; /* Espaço entre o ícone e o texto */
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
     
     /* Animação para entrada de mensagens */
     @keyframes slideIn {
@@ -397,12 +417,22 @@ with col2:
     
     # Configurações (removidas - usando apenas llama padrão)
     # st.markdown("### ⚙️ Configurações")
-    
+    st.markdown("""
+    <div class="commitment-card">
+        <strong>🛡️ Compromisso com a Verdade</strong>
+        <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;">
+            O Agente IA do PingPoli tem um único propósito: fornecer informações 
+            precisas e factuais. Ele sempre falará a verdade, com base nos dados 
+            disponíveis.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
     # Informações da equipe
     st.markdown("### 🏓 Sobre o PingPoli")
     st.markdown("""
     <div style="background: #f8f9fa; padding: 1rem; border-radius: 10px; font-size: 0.9rem;">
-        <strong>PingPoli</strong> é a equipe de tênis de mesa com tradição em excelência esportiva e desenvolvimento de talentos.
+        <strong>PingPoli</strong> é a equipe de tênis de mesa com tradição em excelência esportiva e desenvolvimento de talentos como o Shigueru.
     </div>
     """, unsafe_allow_html=True)
 
