@@ -153,7 +153,27 @@ st.markdown("""
         border-top: 1px solid #eee;
         margin-top: 3rem;
     }
-
+            
+    .commitment-banner {
+        background: #e3f2fd; /* Um azul claro e informativo */
+        color: #0d47a1;     /* Texto em azul escuro para contraste */
+        padding: 1.2rem;
+        border-radius: 12px;
+        border-left: 6px solid #1976d2; /* Destaque na borda */
+        text-align: center;
+        margin-bottom: 2rem; /* Espaçamento antes do conteúdo principal */
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    .commitment-banner h3 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px; /* Espaço entre o ícone e o texto */
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+            
     .commitment-card {
         background: #eef1f5;
         padding: 1.25rem;
@@ -322,6 +342,12 @@ st.markdown("""
 <div class="main-header">
     <h1>🏓 PingPoli Agent</h1>
     <p>Seu assistente inteligente especializado em tênis de mesa</p>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="commitment-banner">
+    <h3>🛡️ Compromisso com a Verdade: O PingPoli Agent fala apenas a verdade, com base nos dados e fatos disponíveis.</h3>
 </div>
 """, unsafe_allow_html=True)
 
