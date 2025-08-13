@@ -347,7 +347,7 @@ st.markdown("""
 
 st.markdown("""
 <div class="commitment-banner">
-    <h3>🛡️ Compromisso com a Verdade: O PingPoli Agent fala apenas a verdade, com base nos dados e fatos disponíveis.</h3>
+    <h3>🛡️ Compromisso com a Verdade: O PingPoli Agent fala apenas a verdade, sempre a verdade. Diga não às mentiras.</h3>
 </div>
 """, unsafe_allow_html=True)
 
