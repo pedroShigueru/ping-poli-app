@@ -484,7 +484,7 @@ if send_button and user_input.strip():
     
     # Gerar resposta (usando modelo fixo)
     system_user_prompt = load_prompt_from_yaml("system_user_prompt", user_input)
-    answer = generate_answer(user_input, system_user_prompt, model="llama-3.3-70b-versatile", temperature=0.8)
+    answer = generate_answer(user_input, system_user_prompt, model="meta-llama/llama-4-maverick-17b-128e-instruct", temperature=0.8)
     
     # Remover indicador de digitação
     typing_placeholder.empty()
